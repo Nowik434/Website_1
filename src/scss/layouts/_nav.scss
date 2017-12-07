@@ -1,0 +1,33 @@
+.navbar {
+  margin-top: 20px;
+  ul {
+    color: #fff;
+    li {
+      margin: 0 2px;
+      background: none;
+      border-radius: 9px;
+      border: none;
+      &:hover {
+        background: $light-color;
+      }
+      a {
+        text-align: center;
+        padding: 0;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 13px;
+        margin: 8px 19px;
+      }
+    }
+  }
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-size: 25px;
+  p{
+    font-size: 9px;
+    margin-top: -6px;
+    letter-spacing: 1px;
+  }
+}

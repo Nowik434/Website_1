@@ -1,0 +1,10 @@
+.btn{
+  border-radius: 9px;
+  &:hover{
+  background: #47bb6d;
+  }
+}
+
+.btn-primary{
+  background: $light-color;
+}

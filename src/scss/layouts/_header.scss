@@ -1,0 +1,34 @@
+
+
+.circle{
+  height: 26em;
+  width: 26em;
+  background: #333333;
+  border-radius: 500px;
+  border: 25px solid #6b6b6b;
+  margin: auto;
+}
+
+.header-section{
+  color: #fff;
+}
+
+.jumbotron{
+  height: 526px;
+  background: $primary-color;
+}
+
+.carousel-control-next-icon{
+  background-image: url(../../img/strzalka2_03_03.png);
+  height: 35px;
+}
+
+.carousel-control-prev-icon{
+  background-image: url(../../img/strzalka1_02_03_03.png);
+  height: 35px;
+}
+
+.header-text{
+  margin: auto;
+  padding-left: 60px;
+}

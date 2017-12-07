@@ -1,0 +1,287 @@
+@charset "UTF-8";
+/*
+Pawel temlplate
+Author: Paweł Nowicki
+*/
+/* BASE - Base styles, variables, mixins, etc */
+/*Background Colors*/
+body {
+  background: #290000;
+  font-family: Georgia, sans-serif;
+  border-top: 5px solid #76c38f;
+}
+
+.active {
+  background: #76c38f !important;
+  border: 0px;
+}
+
+/* MODULES - Individual site components */
+.btn {
+  border-radius: 9px;
+}
+
+.btn:hover {
+  background: #47bb6d;
+}
+
+.btn-primary {
+  background: #76c38f;
+}
+
+/* LAYOUTS - Page layout styles */
+.navbar {
+  margin-top: 20px;
+}
+
+.navbar ul {
+  color: #fff;
+}
+
+.navbar ul li {
+  margin: 0 2px;
+  background: none;
+  border-radius: 9px;
+  border: none;
+}
+
+.navbar ul li:hover {
+  background: #76c38f;
+}
+
+.navbar ul li a {
+  text-align: center;
+  padding: 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+  margin: 8px 19px;
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-size: 25px;
+}
+
+.navbar-brand p {
+  font-size: 9px;
+  margin-top: -6px;
+  letter-spacing: 1px;
+}
+
+.circle {
+  height: 26em;
+  width: 26em;
+  background: #333333;
+  border-radius: 500px;
+  border: 25px solid #6b6b6b;
+  margin: auto;
+}
+
+.header-section {
+  color: #fff;
+}
+
+.jumbotron {
+  height: 526px;
+  background: #290000;
+}
+
+.carousel-control-next-icon {
+  background-image: url(../../img/strzalka2_03_03.png);
+  height: 35px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(../../img/strzalka1_02_03_03.png);
+  height: 35px;
+}
+
+.header-text {
+  margin: auto;
+  padding-left: 60px;
+}
+
+footer {
+  background: #303030;
+  padding-top: 30px;
+}
+
+footer h4 {
+  color: #fff;
+  font-size: 16px;
+  padding-bottom: 13px;
+}
+
+footer hr {
+  height: 1px;
+  background: #404040;
+  margin: 7px 0;
+}
+
+footer i {
+  color: #404040;
+}
+
+footer p {
+  color: #979797;
+  font-size: 14px;
+}
+
+footer a, footer span {
+  color: #76c38f;
+  font-size: 14px;
+}
+
+footer .form-control {
+  background: #222222;
+  border: 0;
+  border-radius: 10px;
+}
+
+footer .form-control:focus {
+  background: #979797;
+  color: #fff;
+  box-shadow: 0 0 0 0.2rem #76c38f;
+}
+
+footer .form-control .btn-primary:active {
+  background-color: #76c38f !important;
+  border-color: none !important;
+  box-shadow: none !important;
+}
+
+footer .btn-secondary {
+  background: none !important;
+  border: none !important;
+  color: #76c38f !important;
+}
+
+footer .btn-secondary:active, footer .btn-secondary :focus {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+footer .footer-main {
+  padding-bottom: 40px;
+}
+
+footer .footer-down {
+  color: #979797;
+  background: #2b2b2b;
+  padding: 10px 0;
+  border-top: 1px solid black;
+}
+
+footer .footer-down .p-right {
+  text-align: right;
+}
+
+.card-section {
+  padding: 45px 0;
+  background: #660000;
+}
+
+.card-deck {
+  margin-bottom: 0;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-body p {
+  text-align: justify;
+  font-size: 13px;
+}
+
+.card {
+  cursor: pointer;
+  height: auto;
+  min-height: 350px;
+  border: 0;
+  border-radius: 0;
+}
+
+.card-img-top {
+  height: 48%;
+  width: 55%;
+  margin: auto;
+  padding-top: 25px;
+}
+
+.link {
+  list-style: none;
+  text-align: center;
+  color: #000;
+  height: 100%;
+}
+
+.link:hover {
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
+  background: #76c38f;
+}
+
+.gallery-section {
+  background: #660000;
+  padding-top: 0;
+  padding-bottom: 40px;
+}
+
+.gallery-section .gallery {
+  width: 100%;
+  margin-top: 35px;
+}
+
+.gallery-section .card {
+  background: #303030;
+  min-height: 250px;
+  border: 5px solid #fff;
+}
+
+.gallery-section .card:hover {
+  border: 5px solid #76c38f;
+}
+
+.gallery-section .card:hover .card-footer {
+  display: none;
+}
+
+.gallery-section .card .card-footer {
+  text-align: center;
+  text-transform: uppercase;
+  background: #151515;
+  padding: .4rem 1.25rem;
+}
+
+.gallery-section .card .card-footer .text-muted {
+  color: #fff !important;
+}
+
+.breake-title {
+  background: #303030;
+  width: 280px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.breake-title p {
+  color: #fff;
+  font-size: 30px;
+  padding-top: 3px;
+}
+
+.line {
+  height: 5px;
+  width: 100%;
+  background: #303030;
+  position: relative;
+  top: -27px;
+  margin: 0 auto;
+}
